@@ -5,9 +5,9 @@ public class Panda
     public string Name;
     public static int Population;
 
-    public Panda(string n)
+    public Panda(string name)
     {
-        Name = n;
+        Name = name;
         Population += 1;
     }
 }
